@@ -1,0 +1,1 @@
+Own thoughts, Own design
