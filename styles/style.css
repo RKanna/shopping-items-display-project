@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+:root {
+  --clr-sky-blue: #8ecae6ff;
+  --clr-blue-green: #219ebcff;
+  --clr-brussian-blue: #023047ff;
+  --clr-selective-yellow: #ffb703ff;
+  --clr-ut-orange: #fb8500ff;
+  --light-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0px 5px 15px rgba(0, 0, 0, 0.4);
+}
+body {
+  font-family: "Lato", sans-serif;
+  min-width: 100vh;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.nav-section {
+  width: 100%;
+  height: 7rem;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo-div {
+  width: 100%;
+}
+.jma-logo {
+  width: 30%;
+}
+ul {
+  display: flex;
+  padding: 4rem;
+}
+li {
+  list-style: none;
+  margin-left: 2rem;
+}
+.search-bar {
+  width: 100%;
+}
+.searchBar {
+  padding: 1.5rem 5rem 1.5rem 5rem;
+  border-radius: 1rem;
+  border: 1px solid gold;
+}
+.shopping-main-container {
+  width: 100%;
+  height: 100rem;
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+}
+.list-container {
+  width: 18%;
+  height: 100rem;
+  background-color: hotpink;
+}
+.shopping-item-container {
+  width: 82%;
+  /* height: 100rem; */
+  height: auto;
+  background-color: red;
+}
+
+.item-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+.item-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.item {
+  width: 18rem;
+  height: 18rem;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+.btn-container {
+  width: 100%;
+  height: 4rem;
+  /* background-color: aqua; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.sort-btn {
+  padding: 1rem 3rem 1rem 3rem;
+  border-radius: 0.5rem;
+  border: transparent;
+  background-color: gold;
+  cursor: pointer;
+}
+.search-btn {
+  padding: 1rem 3rem 1rem 3rem;
+  border-radius: 0.5rem;
+  border: transparent;
+  background-color: gold;
+  cursor: pointer;
+}
+.product-image {
+  width: 10rem;
+}
