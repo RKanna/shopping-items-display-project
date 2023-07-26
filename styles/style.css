@@ -72,7 +72,7 @@ li {
   width: 82%;
   /* height: 100rem; */
   height: auto;
-  background-color: red;
+  background-color: grey;
 }
 
 .item-container {
@@ -97,6 +97,9 @@ li {
   cursor: pointer;
   display: flex;
   justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-radius: 1rem;
 }
 .btn-container {
   width: 100%;
